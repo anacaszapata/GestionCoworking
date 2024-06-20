@@ -1,4 +1,4 @@
-# SQL Queries 
+# SQL Queries Coworking
 
 ## Contexto
 
