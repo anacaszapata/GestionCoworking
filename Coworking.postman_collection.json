@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "c5800020-87be-413f-a774-d4ea0ee9cac6",
+		"name": "Coworking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33481572"
+	},
+	"item": [
+		{
+			"name": "get workspaces",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get available with session and room",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get mor busy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/session/more-ocupade",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"session",
+						"more-ocupade"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get workspace by user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/session/more-ocupade",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"session",
+						"more-ocupade"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get workspace by user Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/session/more-ocupade",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"session",
+						"more-ocupade"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
