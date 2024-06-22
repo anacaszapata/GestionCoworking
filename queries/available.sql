@@ -12,3 +12,11 @@ SELECT * FROM workspace limit 1
 
 
 SELECT * FROM session limit 1
+
+
+
+SELECT* from "users" where name ISNULL
+
+
+
+SELECT * from workspace where "name"  ISNULL LIMIT 1
